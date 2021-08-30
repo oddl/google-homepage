@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Google Search Engine</title>
+        <style>
+            body{
+                 height: 100vh;
+                 margin: 0;
+                 font-family: Arial, Helvetica, sans-serif;
+                  font-size: small;
+                }
+            #nav {
+            }
+            ul {
+                display: inline;
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+            }
+            li {
+                display: inline;
+                padding-left: 15px;
+            }
+            .ntl{
+                float: left;
+                padding-top: 15px;
+            }
+            .ntr{
+                float: right;
+                padding-top: 15px;
+                padding-right: 25px;
+            }
+            #search-engine-logo {
+                position: relative;
+                display: flex;
+                justify-content: center;
+                padding-top: 209px;
+                padding-left: 115px;
+            }
+            a {
+                text-decoration: none;
+                color: black;
+            }
+            a:hover {
+                text-decoration: underline;
+            }
+            a:active {
+                text-decoration: none;
+            }
+            #searchbar{
+                display: flex;
+                justify-content: center;
+            }
+            .submitinput2{
+                margin-left: 90px;
+            }
+            .searchinput {
+                margin-top: 25px;
+                margin-left: 15px;
+                width: 450px;
+                height: 35px;
+                outline: none;
+                border-style: solid;
+                border-width: thin;
+                border-color: lightgray;
+                border-radius: 30px;
+            }
+            .searchinput:hover,
+            .searchinput:active, .searchinput:focus {
+                border-color: white;
+                box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
+                outline:none;
+            }
+            .submitinput{
+                display: inline-block;
+                background-color: hsl(10 10 10);
+                border-style: none;
+                color: gray;
+                margin-top: 25px;
+                margin-left: 15px;
+                padding: 10px 17px 10px 17px;
+                border-radius: 5px;
+            }
+            .submitinput:hover{
+                background-color: hsl(10 10 10);
+                border-style: solid;
+                border-width: thin;
+                color:black;
+                border-radius: 5px;
+            }
+            footer{
+                background-color: #eeeeee;
+                padding: 15px;
+                position: fixed;
+                bottom: 0;
+                width: 100%;
+                    }
+            .nbl{
+                left: 0;
+            }
+            .nbr{
+                float:right;
+                padding-right: 35px;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+        <div id="nav">
+            <ul class="ntl">
+                <li><a target="_blank" href="">About</a></li>
+                <li><a target="_blank" href="">Store</a></li>
+            </ul>
+            <ul class="ntr">
+                <li><a target="_blank" href="">Gmail</a></li>
+                <li><a target="_blank" href="">Images</a></li>
+                <li><a target="_blank" href="">Box</a></li>
+                <li><a target="_blank" href="">Sign in</a></li>
+            </ul>
+        </div>
+        </header>
+        <div id="search-engine-logo"><img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"" alt="Google Logo"></div>
+        <div id="searchbar">
+            <form>
+                <input class="searchinput" type="text"><br>
+                <div class="submitinput2">
+                <input class="submitinput" type="submit" value="Google Search">
+                <input class="submitinput" type="submit" value="I'm Feeling Lucky">
+                </div>
+            </form>
+        </div>
+        <footer>
+            <div id="navfoot">
+                <ul class="nbl">
+                    <li><a target="_blank" href="">Advertising</a></li>
+                    <li><a target="_blank" href="">Business</a></li>
+                    <li><a target="_blank" href="">How Search works</a></li>
+                </ul>
+                <ul class="nbr">
+                    <li><a target="_blank" href="">Privacy</a></li>
+                    <li><a target="_blank" href="">Terms</a></li>
+                    <li><a target="_blank" href="">Settings</a></li>
+                </ul>
+            </div>
+        </footer>
+    </body>
+</html>
